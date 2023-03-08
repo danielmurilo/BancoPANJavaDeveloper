@@ -32,9 +32,9 @@ public class DesafioImprimindoPositivosMédia {
          if(x > 0.0){
            positives++;
            media += x;
-         }
-         
-       }       
+         }         
+       }
+       scan.close();      
         media /= positives;
         System.out.println(positives + " valores positivos");
         System.out.println(String.format("%.1f", media));
